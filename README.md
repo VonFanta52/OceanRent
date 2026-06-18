@@ -1,35 +1,56 @@
-# OceanRent - Gestión de Alquiler de Barcos
+# OceanRent
 
-OceanRent es una aplicación desarrollada en **Flutter** para la gestión de alquiler de barcos.  
-El proyecto permite gestionar reservas, usuarios, barcos, comunicación entre cliente y administrador, reseñas y otros elementos relacionados con el proceso de alquiler.
+**OceanRent** es una aplicación multiplataforma desarrollada con **Flutter** para la gestión digital de alquiler de embarcaciones.
 
-Este proyecto ha sido desarrollado como parte de mi formación y experiencia práctica en desarrollo de aplicaciones multiplataforma.
+El objetivo del proyecto es centralizar en una sola aplicación la gestión de barcos, reservas, usuarios, documentación, fianzas, reseñas y comunicación entre cliente y administrador, ofreciendo una solución moderna y escalable para empresas del sector náutico.
 
 ---
 
-## Descripción del proyecto
+## Vista general
 
-La aplicación está pensada para digitalizar y facilitar la gestión de una empresa de alquiler de embarcaciones, ofreciendo una experiencia sencilla tanto para el cliente como para el administrador.
+OceanRent nace como una solución orientada a digitalizar el proceso de alquiler de barcos, permitiendo que los usuarios puedan consultar embarcaciones, realizar reservas y comunicarse con la administración desde una interfaz móvil sencilla e intuitiva.
 
-El usuario puede consultar barcos disponibles, realizar reservas, revisar información relacionada con sus alquileres y comunicarse mediante un sistema de chat.  
-Por otro lado, el administrador puede gestionar reservas, usuarios, barcos y atender las conversaciones relacionadas con cada alquiler.
+Desde el lado administrativo, la aplicación permite gestionar la información clave del negocio, revisar reservas, atender consultas de clientes y mantener un control más organizado de la actividad diaria.
+
+Este proyecto forma parte de mi portfolio como **Desarrollador Flutter Junior**, aplicando conocimientos de desarrollo móvil, gestión de estado, arquitectura modular y buenas prácticas de programación.
+
+---
+
+## Objetivos del proyecto
+
+- Crear una aplicación móvil funcional para la gestión de alquiler de barcos.
+- Aplicar Flutter y Dart en un caso práctico cercano a un entorno real.
+- Separar correctamente la interfaz, la lógica de negocio, los servicios y el estado de la aplicación.
+- Implementar una experiencia diferenciada para usuarios y administradores.
+- Mejorar la mantenibilidad del código mediante una estructura organizada.
+- Desarrollar funcionalidades útiles para una empresa real de alquiler náutico.
 
 ---
 
 ## Funcionalidades principales
 
-- Registro e inicio de sesión de usuarios.
-- Gestión de perfil de usuario.
-- Visualización de barcos disponibles.
-- Gestión de reservas de embarcaciones.
-- Sistema de chat entre cliente y administrador.
+### Usuarios
+
+- Registro e inicio de sesión.
+- Gestión del perfil de usuario.
+- Consulta de barcos disponibles.
+- Visualización de detalles de cada embarcación.
+- Creación y seguimiento de reservas.
+- Comunicación con administración mediante chat.
 - Asociación de conversaciones a reservas concretas.
 - Gestión de reseñas.
-- Gestión de licencias y documentación.
-- Gestión de fianzas.
-- Panel de administración para controlar reservas y usuarios.
-- Finalización de conversaciones en el chat.
-- Interfaz adaptada a dispositivos móviles.
+- Consulta de información relacionada con licencias, documentación y fianzas.
+
+### Administración
+
+- Gestión de usuarios.
+- Gestión de barcos.
+- Control de reservas.
+- Revisión de información asociada a cada alquiler.
+- Atención de conversaciones con clientes.
+- Acceso contextual desde el chat a reservas concretas.
+- Finalización de conversaciones.
+- Organización de la información operativa de la aplicación.
 
 ---
 
@@ -37,22 +58,47 @@ Por otro lado, el administrador puede gestionar reservas, usuarios, barcos y ate
 
 - **Flutter**
 - **Dart**
-- **Riverpod** para la gestión de estado
-- **Git y GitHub** para control de versiones
-- Arquitectura organizada por capas
-- Separación entre interfaz, lógica de negocio, servicios y providers
+- **Riverpod** para gestión de estado
+- **Git**
+- **GitHub**
+- Arquitectura modular
+- Separación por capas
+- Componentes reutilizables
+- Desarrollo orientado a aplicaciones móviles multiplataforma
 
 ---
 
-## Estructura general del proyecto
+## Enfoque técnico
+
+El proyecto está organizado buscando mantener una estructura clara, escalable y fácil de mantener.
+
+Se ha trabajado especialmente en:
+
+- Separación entre pantallas, widgets, modelos, servicios y providers.
+- Gestión del estado mediante Riverpod.
+- Reutilización de componentes visuales.
+- Organización de funcionalidades por módulos.
+- Control de versiones con Git.
+- Mejora progresiva de textos, mensajes visibles e interfaz.
+- Implementación de flujos diferenciados para cliente y administrador.
+
+---
+
+## Estructura del proyecto
 
 ```bash
 lib/
 ├── main.dart
 ├── models/
-├── screens/
-├── widgets/
 ├── providers/
+├── screens/
 ├── services/
+├── widgets/
 ├── routes/
 └── utils/
+```
+
+
+
+
+
