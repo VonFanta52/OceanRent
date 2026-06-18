@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "rentboat2-7e150",
+          "appId": "1:145195283796:android:8d7e49d60c0ed82712c4c1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rentboat2-7e150",
+          "configurations": {
+            "android": "1:145195283796:android:8d7e49d60c0ed82712c4c1",
+            "ios": "1:145195283796:ios:45269bb765b834b912c4c1",
+            "macos": "1:145195283796:ios:45269bb765b834b912c4c1",
+            "web": "1:145195283796:web:d44e74a8b814121112c4c1",
+            "windows": "1:145195283796:web:b6df68d3bf96ae9812c4c1"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

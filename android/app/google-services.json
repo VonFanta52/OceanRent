@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "145195283796",
+    "project_id": "rentboat2-7e150",
+    "storage_bucket": "rentboat2-7e150.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145195283796:android:8d7e49d60c0ed82712c4c1",
+        "android_client_info": {
+          "package_name": "es.zaitec.ocean_rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145195283796-l77d14rovtecqqp6hstm9tr84dq7kf7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.zaitec.ocean_rent",
+            "certificate_hash": "0e8e79c0fb7e9d518caf38bab72047f3c01f6638"
+          }
+        },
+        {
+          "client_id": "145195283796-9lsjc6jau0clpd7rd6t3ddfsoikae5ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBykzJe84XzBLnigObKSC47MPdQUGKjDLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145195283796-9lsjc6jau0clpd7rd6t3ddfsoikae5ir.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "145195283796-fj81bui5ma3e0em1vjto3135pm0c4shu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "es.zaitec.oceanRent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
